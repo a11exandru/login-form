@@ -11,7 +11,10 @@ body {
 }
 
 .form {
-    height: 100vh;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
     display: flex;
     align-items: center;
 }
@@ -19,7 +22,8 @@ body {
 .form__wrapper {
     background-color: lightskyblue;
     width: 100%;
-    padding: 1rem 0;
+    padding: 1rem 0.5rem;
+    margin: 0 4rem;
 }
 
 .avatar {
@@ -28,11 +32,50 @@ body {
 }
 
 .form__avatar {
-    width: 100px;
+    width: 150px;
     border-radius: 50%;
 }
 
 .bold {
     font-weight: bold;
     padding: 0.5rem 0;
+    font-size: 1.3rem;
+}
+
+.background-image {
+    background-image: url('asset/image/transfagarasan.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.form__button-login {
+    display: block;
+    margin: 1rem 0 0 0;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    width: 100%;
+}
+
+.form__username,
+.form__password {
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.form__input-remember {
+    margin-top: 1rem;
+}
+
+.form__label-remember {
+    font-size: 0.9rem;
+}
+
+.form__button-cancel {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
 }

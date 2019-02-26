@@ -8,6 +8,7 @@ html(lang="en")
         link(rel="stylesheet", href="style.css")
         title Login form
     body
+        .background-image
         .form
             .form__wrapper
                 .avatar
@@ -16,3 +17,7 @@ html(lang="en")
                 input.form__username(type="text", placeholder="Enter username")
                 p.bold Password
                 input.form__password(type="password", placeholder="Enter password")
+                button.form__button-login(type="button") Login
+                input.form__input-remember(type="checkbox", id="remember")
+                label.form__label-remember(for="remember") Rememeber me
+                button.form__button-cancel(type="button") Cancel
