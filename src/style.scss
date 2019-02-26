@@ -1,3 +1,38 @@
-h1 {
-    color: red;
+@import '_component/config/reset';
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.form__wrapper {
+    background-color: lightskyblue;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.avatar {
+    width: 100%;
+    text-align: center;
+}
+
+.form__avatar {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.bold {
+    font-weight: bold;
+    padding: 0.5rem 0;
 }

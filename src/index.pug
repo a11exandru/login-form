@@ -8,4 +8,11 @@ html(lang="en")
         link(rel="stylesheet", href="style.css")
         title Login form
     body
-        h1 Ceao! This will be an amazing login/register form made by senior Alex Puiu!
+        .form
+            .form__wrapper
+                .avatar
+                    img.form__avatar(src="asset/image/img_avatar.png", alt="avatar")
+                p.bold Username
+                input.form__username(type="text", placeholder="Enter username")
+                p.bold Password
+                input.form__password(type="password", placeholder="Enter password")
